@@ -4,57 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            margin: 0;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-        main {
-            padding: 2rem;
-            text-align: center;
-        }
-        button {
-            padding: 0.5rem 1rem;
-            font-size: 1rem;
-            color: #fff;
-            background-color: #007bff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -77,21 +27,6 @@
         <p>&copy; 2025 My JavaScript Website</p>
     </footer>
 
-    <script>
-        const button = document.getElementById('magicButton');
-        const output = document.getElementById('output');
-
-        button.addEventListener('click', () => {
-            const messages = [
-                "You are amazing!",
-                "Keep up the great work!",
-                "JavaScript is awesome!",
-                "Coding is fun!",
-                "Believe in yourself!"
-            ];
-            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
-            output.textContent = randomMessage;
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
