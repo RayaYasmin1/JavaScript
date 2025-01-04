@@ -3,30 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Website</title>
+    <title>Rayas' JavaScript Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My JavaScript Website</h1>
+        <h1>Welcome, Rayas! Explore Your JavaScript Journey</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>Interactive Button</h2>
-        <p>Click the button below to see some magic happen!</p>
-        <button id="magicButton">Click Me!</button>
-        <p id="output" style="margin-top: 1rem; font-size: 1.2rem;"></p>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Raya, currently working on my research about the Bangalore hotel dataset. Check out my research questions below!</p>
+        </section>
+        <section id="projects">
+            <h2>Interactive Research Question Generator</h2>
+            <p>Click below to get a random research question from my project!</p>
+            <button id="generateQuestion">Generate Research Question</button>
+            <p id="researchOutput" style="margin-top: 1rem; font-size: 1.2rem;"></p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me via <a href="mailto:rayayasmin1@gmail.com">email</a>.</p>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2025 My JavaScript Website</p>
+        <p>&copy; 2025 Rayas' JavaScript Website</p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
